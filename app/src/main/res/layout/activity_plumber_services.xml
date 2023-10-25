@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlumberServices">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Services"
+                android:textSize="48sp"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pipe Installation"
+                android:textSize="20sp"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/plum1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Leak Repair"
+                android:textSize="20sp"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/plum2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fixture Installation"
+                android:textSize="20sp"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/plum3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clogged Drain Cleaning"
+                android:textSize="20sp"
+                android:textColor="@color/primary"
+                android:textStyle="bold"
+                android:padding="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="292dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/plum4jpg" />
+
+            <!-- Include similar TextView and ImageView elements for other items -->
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/buttonview"
+        android:layout_width="249dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="649dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="30dp"
+        android:text="View Appointments"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="303dp"
+        android:layout_marginTop="599dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/circular_button_bg"
+        android:gravity="center"
+        android:text="BACK"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

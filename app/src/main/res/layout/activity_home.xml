@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/elec"
+        android:layout_width="348dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="31dp"
+        android:background="@color/primary"
+        android:text="Service Provider"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Customer"
+        android:layout_width="348dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="212dp"
+        android:background="@color/yellow"
+        android:backgroundTint="#FFEB3B"
+        android:text="Appointments"
+        android:textColor="@color/input_background"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="616dp"
+        android:text="Dashboard"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/navMainPage"
+        android:layout_width="56dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/baseline_navigate_before_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
